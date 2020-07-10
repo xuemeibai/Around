@@ -10,5 +10,5 @@ jobs:
       - run: |
           docker build -t xuemeibai/around .
           docker login -u="$DOCKERHUB_USERNAME" -p="$DOCKERHUB_PASSWORD"
-          docker push xuemeibai /around
+          docker push xuemeibai/around
 
